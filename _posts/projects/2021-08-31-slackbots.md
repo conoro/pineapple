@@ -13,7 +13,7 @@ project:
   logo: "/assets/images/projects/slackbots/logo.png"
   tech: "Slack, Tines"
 
-agency:
+source:
   title: "Tines CS"
   url: "https://snowy-pond-6977.tines.io/stories/158/diagram"
   year: "2021"

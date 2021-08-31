@@ -13,7 +13,7 @@ project:
   logo: "/assets/images/projects/aquapineapple/logo.png"
   tech: "HTML, CSS, Boostrap, Sass, JavaScript, jQuery, Jekyll"
 
-agency:
+source:
   title: "Aqua Pineapple Co"
   url: "https://github.com/arnolds/pineapple"
   year: "2018"
