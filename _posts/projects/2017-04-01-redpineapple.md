@@ -4,24 +4,24 @@ permalink: /:title/
 category: projects
 
 meta:
-  keywords: "Jekyll, Pineapple"
+  keywords: "Tines, Slack, Slackbot"
 
 project:
-  title: "Red Pineapple"
-  type: "Jekyll"
-  url: "https://github.com/arnolds/pineapple"
+  title: "Slack Interactive Bot Example"
+  type: "Chatbots"
+  url: "https://snowy-pond-6977.tines.io/stories/158/diagram"
   logo: "/assets/images/projects/redpineapple/logo.png"
-  tech: "HTML, CSS, Boostrap, Sass, JavaScript, jQuery, Jekyll"
+  tech: "Slack, Tines"
 
 agency:
-  title: "Red Pineapple Co"
-  url: "https://github.com/arnolds/pineapple"
-  year: "2017"
+  title: "Tines CS"
+  url: "https://snowy-pond-6977.tines.io/stories/158/diagram"
+  year: "2021"
 
 images:
   - image:
-    url: "/assets/images/projects/redpineapple/devices.jpg"
-    alt: "Red Pineapple website on tablet, mobile and desktop"
+    url: "/assets/images/projects/redpineapple/slackbot.png"
+    alt: "Slackbot Story"
   - image:
     url: "/assets/images/projects/redpineapple/desktop.jpg"
     alt: "Red Pineapple website on a desktop device"
@@ -29,4 +29,17 @@ images:
     url: "/assets/images/projects/redpineapple/mobile.jpg"
     alt: "Red Pineapple website on a mobile device"
 ---
-<p>Pineapples are delicious tropical fruit. There are more than a hundred varieties of pineapples that grow in varying sizes. The plant is indigenous to South America and is said to originate from the area between southern Brazil and Paraguay.</p>
+<p>Demo Story for handling Slack Interactive Responses
+
+To test this Story, either Run the Agent called "Run to kick off test", or submit a form.
+This Jira ticket can be used for testing: https://tinesio.atlassian.net/browse/DEMO-2558
+
+
+When enabling a Slack App to allow Interactive Content, a single Webhook URL must be provided. This webhook will receive all interactive responses related to this Slack App. 
+
+
+This story will take a given email address, and send that user a custom message with the option to confirm or deny that action.
+If the user denies the action, then a Jira ticket will be updated noting this response.
+If a user confirms the action, they will be presented with a modal view allowing them to add some extra context about the action taken. Once submitted, the Jira ticket will be updated with the additional information. If the user closes this dialog before submitting a response, the Jira ticket will be updated to include that detail.
+
+After either submitting a response, or denying the activity, the original Slack message will be overwritten with a message confirming the response and providing the Incident ID.</p>
