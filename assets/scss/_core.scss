@@ -8,7 +8,7 @@ body {
 	font-family: $font-Helvetica;
 	font-size: 1.8em;
 	line-height: 1.6;
-	font-weight: 600;
+	font-weight: normal;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -103,11 +103,11 @@ dl {
 	}
 
 	dt {
-		font-weight: 600;
+		font-weight: normal;
 	}
 
 	dd {
-		font-weight: 400;
+		font-weight: normal;
 	}
 }
 
@@ -133,7 +133,7 @@ table {
 	thead {
 		td,
 		th {
-			font-weight: 600;
+			font-weight: normal;
 		}
 	}
 
@@ -145,7 +145,7 @@ table {
 	th,
 	td {
 		font-family: $font-lekton;
-		font-weight: 400;
+		font-weight: normal;
 		text-align: left;
 		padding: .5rem 1rem;
 	}
