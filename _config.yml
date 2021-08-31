@@ -9,7 +9,7 @@ twitter: "https://twitter.com/conoro"
 github: "https://github.com/conoro"
 
 # Site config
-baseurl: ""
+baseurl: "/pineapple"
 highlighter: rouge
 sass:
   sass_dir: assets/scss
