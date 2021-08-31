@@ -10,7 +10,7 @@ project:
   title: "Slack Interactive Bot Example"
   type: "Chatbots"
   url: "https://snowy-pond-6977.tines.io/stories/158/diagram"
-  logo: "/assets/images/projects/redpineapple/logo.png"
+  logo: "/assets/images/projects/slackbots/logo.png"
   tech: "Slack, Tines"
 
 agency:
@@ -20,14 +20,14 @@ agency:
 
 images:
   - image:
-    url: "/assets/images/projects/redpineapple/slackbot.png"
+    url: "/assets/images/projects/slackbots/slackbot.png"
     alt: "Slackbot Story"
   - image:
-    url: "/assets/images/projects/redpineapple/desktop.jpg"
-    alt: "Red Pineapple website on a desktop device"
+    url: "/assets/images/projects/slackbots/Slack_Interactive_Bot_Example_Tines.gif"
+    alt: "Video highlight"
   - image:
-    url: "/assets/images/projects/redpineapple/mobile.jpg"
-    alt: "Red Pineapple website on a mobile device"
+    url: "/assets/images/projects/slackbots/slackbot2.png"
+    alt: "Form Input"
 ---
 <p>Demo Story for handling Slack Interactive Responses
 
